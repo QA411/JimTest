@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author             = { "Dely" => "912992586@qq.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/QA411/JimTest.git", :tag => s.version }
-  s.source_files  = "JYPodTest/*.{h,m}"
+  s.source_files  = "JimTest/*.{h,m}"
   s.resources = "*.jpg", "*.md", "*.mobileprovision"
   s.frameworks  = "UIKit", "Foundation"
 
